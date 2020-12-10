@@ -1,0 +1,183 @@
+/* Estilo base */
+/* SECCIONES DE LA PÁGINA Y ELEMENTOS PRINCIPALES */
+
+Body {
+	color:#000000;
+	background-color: #ffffff;
+	font-family: verdana, arial, sans-serif;
+	text-align:justify;
+	line-height: 1.5;
+}
+
+
+header{
+	color: #000000; 
+	background-color: #ffffff; 
+	margin: 2% 1%;
+	border-radius: 20%;
+	padding: 3%;
+	width:50%;
+	float:right;
+	background-image: url(../img/fondo_circulos_azul.png);
+	background-size: cover;
+	border-bottom: solid;
+	border-bottom-color: #2e86c1;
+	border-bottom-width: 0.3125em;
+}
+
+header img{
+	float: left;
+	padding: 0.5%;
+	border-radius: 50%;
+}
+
+
+footer{
+	border-top: #154360 solid; 
+	font-size:90%;
+	text-align: center;
+	clear: both;
+	padding: 3% 3%;
+}
+
+main { 
+    float: left;
+	width: 78%;
+	margin-right: 2%;
+}
+
+
+h1 {
+	color: 	#C75000;
+	text-align: center;
+}
+
+
+h2{
+	font-size: 100%;
+	color: #154360;
+	text-transform: uppercase;
+}
+
+article {
+	clear: both;
+}
+
+
+/************************* ASIDE ******************/
+
+aside {
+    float: right;
+    width: 20%; 
+	margin-top: 10%;
+}
+
+aside figure {
+	float: none;
+	display: inline-block;
+	width: 50%;
+}
+
+aside a {
+	text-decoration: none;
+	color: #154360;
+	display: block;
+}
+
+aside ul {
+	list-style-type: none;
+}
+
+/************************* MENU NAV ******************/
+nav{
+	color: white;
+	background-color:#154360;
+	text-align:left;
+	padding: 1% 2%; /*Regla del Reloj */
+	border-top-left-radius: 30%;
+	border-top-right-radius: 10%;
+	border-bottom-color: #2e86c1;
+	border-bottom-width: 0.3125em;
+	border-bottom-style: solid;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li{
+	line-height: 1.5;
+}
+
+nav h2 {
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-top: 2%;
+}
+
+/* enlaces */
+a {
+	text-decoration: none;
+	color: #C75000;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #87CCF0;
+	display: block;
+}
+
+a:hover, a:focus { 
+    background-color: #111;
+	color: #ffffff;
+}
+
+nav li a:hover, nav li a:focus { 
+	/*background-color: #111;*/
+	background-color: #154360;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+a::first-letter { 
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+
+/*************************** MULTIMEDIA ***********************/
+video {
+	width: 16.25em;
+	height: 9.375em;
+}
+
+figure {
+	float: right;
+	padding: 1% 1%;
+    text-transform: uppercase;
+	border-color:  #154360;
+	text-align: center;
+    color: #154360;
+    font-size: 0.75vw;
+    font-weight: bold;
+	border-style: solid;
+	width: 15%;
+}
+
+figure img {
+	width: 100%;
+}
+
+
+section div {
+	display: inline-block;
+}
+
+section div figure {
+	width: 40%;
+	float: none;
+
+}
+
+section div figure img {
+    width: 100%;
+}
